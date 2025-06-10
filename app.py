@@ -264,5 +264,5 @@ if __name__ == '__main__':
     # 'debug=True' provides helpful error messages during development.
     # IMPORTANT: DO NOT USE debug=True in a production environment.
     logging.info("Starting Flask application...")
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=False)
 
